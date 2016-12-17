@@ -2,7 +2,6 @@
 
 cp ~/.bashrc ~/.bashrc.bk
 
-cat ../common/* >> ~/.bashrc
+cat ../common/* > ~/.bashrc
 
-
-
+source ~/.bashrc
